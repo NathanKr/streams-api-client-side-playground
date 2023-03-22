@@ -8,6 +8,5 @@ Experiment with streams API which read data by chunks. So you might present real
 
 <h2>Open issues</h2>
 <ul>
-<li>is it used in <a href='https://nextjs.org/docs/advanced-features/react-18/streaming'>react 18 streaming SSR</a> seems not because they are using node streams check <a href='https://react.dev/reference/react-dom/server/renderToPipeableStream'>here</a> </li>
-<li>is it production ready ??</li>
+<li>is it used in <a href='https://nextjs.org/docs/advanced-features/react-18/streaming'>react 18 streaming SSR</a> seems yes because it is used in <a href='https://react.dev/reference/react-dom/server/renderToReadableStream'>renderToReadableStream</a> but there is also renderToPipeableStream and renderToStaticNodeStream which uses node streams. So which is used ??</li>
 </ul>
